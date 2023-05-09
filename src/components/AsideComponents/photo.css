@@ -14,3 +14,31 @@
     width: 26vw;
     border: 3px solid white;
 }
+
+.iconeContainer {
+    position: absolute;
+    top: 2.3vw;
+    right: 0px;
+    background-color: white;
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+}
+
+.icone {
+    margin-top: .6vw;
+    margin-left: .6vw;
+    width: 2.8vw;
+    height: 2.8vw;
+}
+
+@media only screen and (max-width: 500px) {
+    .iconeContainer {
+        width: 0px;
+        height: 0px;
+    }
+    .icone {
+        width: 0px;
+        height: 0px;
+    }
+}

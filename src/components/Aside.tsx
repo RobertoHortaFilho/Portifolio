@@ -5,7 +5,7 @@ const Aside = () => {
     return (
         <div className='AsideStyle bordas espacamento'>
             <Photo />
-            <p>Aside</p>
+            <p>Contatos</p>
         </div>
     )
 }
