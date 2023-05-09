@@ -1,8 +1,23 @@
 .main {
   /* display: flex;
   flex-direction: column;
+  */
   justify-content: space-between;
-  align-items: center; */
+  align-items: center; 
   padding: 0px;
   min-height: 100vh;
+}
+
+.separete {
+  width: 100vw;
+  height: 9em;
+}
+
+.corpo {
+  margin-left: 1.5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 96vw;
+  height: auto;
 }

@@ -1,0 +1,21 @@
+.mainBody {
+    border: 1px solid rgba(255,255,255,.2);
+    width: 68vw;
+    height: 600px;
+    margin-bottom: 3em;
+}
+
+.AsideStyle {
+    border: 1px solid rgba(255,255,255,.2);
+    height: 600px;
+    width: 25vw;
+    margin-bottom: 3em;
+}
+
+.bordas {
+    border-radius: 1em;
+}
+
+.espacamento {
+    padding: 1em 1.5vw ;
+}

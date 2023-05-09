@@ -12,7 +12,7 @@ const Header = () => {
                 height={40}
                 priority
             />
-            <h1 className={styles.name}>Roberto Alessandro horta filho</h1>
+            <h1 className={styles.name}>Roberto Alessandro Horta Filho</h1>
             <div className={styles.darkContainer}>
                 <Image
                     src="/icons/dark.png"

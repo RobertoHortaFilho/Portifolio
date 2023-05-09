@@ -1,0 +1,16 @@
+.photo {
+    width: 98%;
+    height: 98%;
+    border-radius: 50%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.containerPhoto {
+    border-radius: 50%;
+    left: -2.3vw;
+    top: -3em;
+    position: relative;
+    width: 26vw;
+    border: 3px solid white;
+}
