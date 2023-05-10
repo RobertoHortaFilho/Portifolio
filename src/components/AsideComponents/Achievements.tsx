@@ -20,6 +20,9 @@ const Achivements = () => {
             <div className='badges-Container'>
                 <BadgeItem />
                 <BadgeItem />
+                <BadgeItem />
+                <BadgeItem />
+                <BadgeItem />
             </div>
         </div>
     )
