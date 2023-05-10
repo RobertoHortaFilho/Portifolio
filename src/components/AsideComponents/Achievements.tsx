@@ -5,7 +5,7 @@ import BadgeItem from './BadgeItem'
 const Achivements = () => {
     return (
         <div className='containerA'>
-            <p className='titleContainer'>
+            <div className='titleContainer'>
                 <div className='badgesContainer'>
                     <Image 
                         src='/icons/badge2.png'
@@ -16,7 +16,7 @@ const Achivements = () => {
                     />    
                 </div>
                 <p className='title'>Conquistas</p>
-            </p>
+            </div>
             <div className='badges-Container'>
                 <BadgeItem />
                 <BadgeItem />
