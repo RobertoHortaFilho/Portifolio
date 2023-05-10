@@ -1,6 +1,7 @@
 import './globalStyle.css'
 import Photo from './AsideComponents/Photo'
 import ContactItem from './Icon/ContactItem'
+import Achivements from './AsideComponents/Achievements'
 
 const Aside = () => {
     return (
@@ -14,6 +15,7 @@ const Aside = () => {
                 <ContactItem src='/icons/github.png' label='/RobertoHortaFilho, MG' url='github.com/RobertoHortaFilho' />
                 <ContactItem src='/icons/email.png' label='robertohortafilho@gmail.com' url='' />
             </div>
+            <Achivements />
         </div>
     )
 }
