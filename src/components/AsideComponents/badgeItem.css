@@ -26,6 +26,7 @@
     height: 90px;
     padding: 0.3em;
     z-index: 900;
+    animation: fadeIn .2s linear normal
 }
 
 .popUp-title {
@@ -37,6 +38,8 @@
     text-align: center;
     font-size: 14px;
 }
+
+
 
 
 @media (max-width: 600px) {
