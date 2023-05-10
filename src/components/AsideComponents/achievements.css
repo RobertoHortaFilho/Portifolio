@@ -1,3 +1,7 @@
+.containerA {
+    margin-bottom: 1em;
+}
+
 .titleContainer {
     display: flex;
     justify-content: center;

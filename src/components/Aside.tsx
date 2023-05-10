@@ -15,7 +15,9 @@ const Aside = () => {
                 <ContactItem src='/icons/github.png' label='/RobertoHortaFilho, MG' url='github.com/RobertoHortaFilho' />
                 <ContactItem src='/icons/email.png' label='robertohortafilho@gmail.com' url='' />
             </div>
+            <div className='HtmlLine'/>
             <Achivements />
+            <div className='HtmlLine'/>
         </div>
     )
 }
