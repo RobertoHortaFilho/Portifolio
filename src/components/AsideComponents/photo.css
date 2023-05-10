@@ -32,6 +32,22 @@
     height: 2.8vw;
 }
 
+.status-popUp {
+    background-color: rgb(22, 27, 34);;
+    position: absolute;
+    border-radius: 5px;
+    width: 200px;
+    top: -20px;
+    left: -15vw;
+}
+
+.status-popUp-text {
+    width: 100%;
+    margin: 5px;
+    margin-left: 8px;
+    font-size: 14px;
+}
+
 @media only screen and (max-width: 500px) {
     .iconeContainer {
         width: 0px;
