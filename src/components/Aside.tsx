@@ -7,12 +7,12 @@ const Aside = () => {
         <div className='AsideStyle bordas espacamento'>
             <Photo />
             <div className='contactSection'>
-                <ContactItem url='/icons/location.png' label='Belo Horizonte, MG' />
-                <ContactItem url='/icons/whatsapp.png' label='+55 31 9 8832-8572' />
-                <ContactItem url='/icons/linkedin.png' label='/RobertoHortaFilho' />
+                <ContactItem src='/icons/location.png' label='Belo Horizonte, MG' url='' />
+                <ContactItem src='/icons/whatsapp.png' label='+55 31 9 8832-8572' url='' />
+                <ContactItem src='/icons/linkedin.png' label='/RobertoHortaFilho' url='' />
                 {/* <ContactItem url='/icons/link.png' label='Belo Horizonte, MG' /> */}
-                <ContactItem url='/icons/github.png' label='/RobertoHortaFilho, MG' />
-                <ContactItem url='/icons/email.png' label='robertohortafilho@gmail.com' />
+                <ContactItem src='/icons/github.png' label='/RobertoHortaFilho, MG' url='github.com/RobertoHortaFilho' />
+                <ContactItem src='/icons/email.png' label='robertohortafilho@gmail.com' url='' />
             </div>
         </div>
     )

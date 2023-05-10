@@ -5,7 +5,7 @@ const Header = () => {
     return(
         <div className='header'>
             <Image
-                src="/images/perfil-picture.png"
+                src="/images/Icon-anime.png"
                 alt="picture-profile"
                 className='circleImage'
                 width={40}
