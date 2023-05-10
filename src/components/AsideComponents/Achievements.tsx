@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import './achievements.css'
 import BadgeItem from './BadgeItem'
+import data from '@/utils/badgesData'
+
 
 const Achivements = () => {
 	return (
@@ -18,18 +20,12 @@ const Achivements = () => {
 				<p className='title'>Conquistas</p>
 			</div>
 			<div className='badges-Container'>
-				<BadgeItem>
-					<p className="popUp-title">Titulo</p>
-					<p className="popUp-desc">descricao sobre o que esse badge siguinifica e como foi "conquistada"</p>
-				</BadgeItem>
-				<BadgeItem>
-					<p className="popUp-title">Titulo</p>
-					<p className="popUp-desc">descricao sobre o que esse badge siguinifica e como foi "conquistada"</p>
-				</BadgeItem>
-				<BadgeItem>
-					<p className="popUp-title">Titulo</p>
-					<p className="popUp-desc">descricao sobre o que esse badge siguinifica e como foi "conquistada"</p>
-				</BadgeItem>
+				{data.map( item => (
+					<BadgeItem src={item.src}>
+						<p className="popUp-title">{item.title}</p>
+						<p className="popUp-desc">{item.description}</p>
+					</BadgeItem>
+				))}
 			</div>
 		</div>
 	)

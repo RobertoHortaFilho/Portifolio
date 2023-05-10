@@ -5,9 +5,10 @@ import { ReactElement, useState } from 'react'
 
 interface IProps {
   children: ReactElement[];
+  src: string;
 }
 
-const BadgeItem = ({children} :IProps) => {
+const BadgeItem = ({children, src} :IProps) => {
   const [description, setDescription] = useState(false)
   return (
     <div
@@ -24,7 +25,7 @@ const BadgeItem = ({children} :IProps) => {
       )}
       <Image
         className="ImageBadge"
-        src='/images/Icon-anime.png'
+        src={src}
         alt='Medalha'
         width={250}
         height={250}
