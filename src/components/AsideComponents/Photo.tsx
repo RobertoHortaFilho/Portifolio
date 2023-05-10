@@ -9,8 +9,8 @@ const Photo = () => {
         src="/images/perfil-picture.png"
         alt="picture-profile"
         className="photo"
-        width={350}
-        height={350}
+        width={950}
+        height={950}
       />
       <div className="iconeContainer">
         <Image
