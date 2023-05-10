@@ -105,3 +105,11 @@ a {
     color-scheme: dark;
   }
 }
+
+.HtmlLine {
+  margin-left: 5%;
+  width: 90%;
+  height: 2px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.267);
+}
