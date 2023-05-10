@@ -24,8 +24,8 @@
 
 .darkContainer {
     position: absolute;
-    right: 40px;
-    top: 15px;
+    right: 6vw;
+    /* top: 15px; */
     padding: 0px;
     padding-left: 5px;
     background-color: white;
@@ -36,3 +36,17 @@
     width: 30px;
     height: 30px;
 }
+
+@media (min-width: 500px){
+    .darkContainer {
+        right: 30px;
+    }
+}
+
+@media (min-width: 950px) {
+    .name {
+        font-size: 1.8em;
+    }
+}
+
+/* TODO: Transformar em css normal e fazer o padding do dark mode fique menor  */

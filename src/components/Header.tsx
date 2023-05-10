@@ -1,23 +1,23 @@
-import styles from './header.module.css'
+import './header.css'
 import Image from 'next/image'
 
 const Header = () => {
     return(
-        <div className={styles.header}>
+        <div className='header'>
             <Image
                 src="/images/perfil-picture.png"
                 alt="picture-profile"
-                className={styles.circleImage}
+                className='circleImage'
                 width={40}
                 height={40}
                 priority
             />
-            <h1 className={styles.name}>Roberto Alessandro Horta Filho</h1>
-            <div className={styles.darkContainer}>
+            <h1 className='name'>Roberto Alessandro Horta Filho</h1>
+            <div className='darkContainer'>
                 <Image
                     src="/icons/dark.png"
                     alt="dark-mode"
-                    className={styles.imageDarkmode}
+                    className='imageDarkmode'
                     width={20}
                     height={20}
                 />
