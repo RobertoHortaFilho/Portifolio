@@ -3,17 +3,17 @@ import Photo from './AsideComponents/Photo'
 import ContactItem from './Icon/ContactItem'
 import Achivements from './AsideComponents/Achievements'
 
+
 const Aside = () => {
     return (
         <div className='AsideStyle bordas espacamento'>
             <Photo />
             <div className='contactSection'>
-                <ContactItem src='/icons/location.png' label='Belo Horizonte, MG' url='' />
-                <ContactItem src='/icons/whatsapp.png' label='+55 31 9 8832-8572' url='' />
-                <ContactItem src='/icons/linkedin.png' label='/RobertoHortaFilho' url='' />
-                {/* <ContactItem url='/icons/link.png' label='Belo Horizonte, MG' /> */}
-                <ContactItem src='/icons/github.png' label='/RobertoHortaFilho, MG' url='github.com/RobertoHortaFilho' />
-                <ContactItem src='/icons/email.png' label='robertohortafilho@gmail.com' url='' />
+                <ContactItem src='/icons/location.png' label='Belo Horizonte, MG' />
+                <ContactItem src='/icons/whatsapp.png' label='+55 31 9 8832-8572' url='https://wa.link/la0x7y' />
+                <ContactItem src='/icons/linkedin.png' label='Roberto Filho' url='https://www.linkedin.com/in/robertohortafilho/' />
+                <ContactItem src='/icons/github.png' label='/RobertoHortaFilho, MG' url='https://www.github.com/RobertoHortaFilho' />
+                <ContactItem src='/icons/email.png' label='robertohortafilho@gmail.com' />
             </div>
             <div className='HtmlLine'/>
             <Achivements />
