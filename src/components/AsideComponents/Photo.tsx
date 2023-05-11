@@ -22,7 +22,7 @@ const Photo = () => {
       >
         {status && (
           <div className='status-popUp'>
-            <p className='status-popUp-text'>O importante é fazer o que você consegue a cada dia!</p>
+            <p className='status-popUp-text'>O importante é dar um passo da caminhada a cada dia!</p>
           </div>
         )}
         <Image

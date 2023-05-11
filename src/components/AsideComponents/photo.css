@@ -36,9 +36,10 @@
     background-color: rgb(22, 27, 34);;
     position: absolute;
     border-radius: 5px;
-    width: 200px;
+    width: 210px;
     top: -20px;
     left: -15vw;
+    animation: fadeIn .2s ease-out normal;
 }
 
 .status-popUp-text {
@@ -46,6 +47,7 @@
     margin: 5px;
     margin-left: 8px;
     font-size: 14px;
+    animation: fadeIn .2s ease-out normal;
 }
 
 @media only screen and (max-width: 500px) {
