@@ -5,6 +5,16 @@
   font-size: 1em;
 }
 
+.paragrafo a {
+  color: #28e037af;
+}
+
+.paragrafo a:hover {
+  color: #28e037af;
+  cursor: pointer;
+}
+
+
 @media (max-width: 450px) {
   .paragrafo {
     font-size: 11px;

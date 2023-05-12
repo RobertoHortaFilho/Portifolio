@@ -10,7 +10,7 @@ const Main = () => {
     return (
         <div className='mainBody bordas'>
             <NavBarMain selected={selectedMain} setSelected={setSelectedMain}/>
-            <ContentController selectItem={selectedMain}/>
+            <ContentController selectItem={selectedMain} setSelected={setSelectedMain}/>
         </div>
     )
 }

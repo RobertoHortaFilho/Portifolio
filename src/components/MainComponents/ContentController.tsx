@@ -9,6 +9,7 @@ export type TItems = 'hobbys' | 'sobre' | 'tecnologias' | 'projetos'
 
 interface IProps {
   selectItem: TItems
+  setSelected: Function
 }
 
 interface IContent {
@@ -18,10 +19,10 @@ interface IContent {
   projetos: ReactElement;
 }
 
-const ContentController = ({selectItem}:IProps) => {
+const ContentController = ({selectItem, setSelected}:IProps) => {
   const content: IContent = {
     hobbys: <Hobbys />,
-    sobre: <Sobre />,
+    sobre: <Sobre setSelect={setSelected}/>,
     tecnologias: <Tecnologias />,
     projetos: <Projetos />,
   }

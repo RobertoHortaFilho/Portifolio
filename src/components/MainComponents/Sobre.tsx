@@ -1,6 +1,10 @@
 import './sobre.css'
 
-const Sobre = () => {
+interface IProps {
+  setSelect: Function
+}
+
+const Sobre = ({setSelect}: IProps) => {
   return (
     <div>
       <p className='paragrafo'>
@@ -19,16 +23,19 @@ const Sobre = () => {
       </p>
       <p className='paragrafo'>
         Um bom tempo se passou e assim que acabei minha formação no ensino médio fui logo procurar algum
-        modo de continuar com meu sonho e acabei encontrando formação da Estácio em jogos digitais,
+        modo de continuar com meu sonho e acabei encontrando formação 
+        da <a href='https://estacio.br' target='_blank'>Estácio</a> em jogos digitais,
         estudei a formaçao, mas ainda não era o que eu queria e depois de um tempo dei uma repaginada,
-        fui atras de uma formação para desenvolvimento web e encontrei a Trybe onde me especializei
+        fui atras de uma formação para desenvolvimento web e encontrei 
+        a <a href='https://www.betrybe.com' target='_blank'>Trybe</a> onde me especializei
         em front e back, alem de um acompanhamento pessoas para me desenvolver como um profissional.
       </p>
       <p className='paragrafo'>
       Atualmente tento sempre contribuir para o conhecimento de todos a minha volta sempre que posso
-        quando o assunto é tecnologia/programação eu converso por horas. Minha especialização em criação
+        quando o assunto é tecnologia/programação eu converso por horas. Minha especialização são criaçoes
         de sites de todos os tipos com back-ends sólidos e front-ends responsivos para ser acessado de qualquer
-        lugar.
+        lugar, trabalhei com desenvolvimento Mobile com react-native e fiz alguns projetos
+        bem bacanas, <a onClick={() => {setSelect('projetos')}}>confere aqui 😉</a>.
       </p>
       <div style={{marginTop: 40}} className='HtmlLine'/>
     </div>
