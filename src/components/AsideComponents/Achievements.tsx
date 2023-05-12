@@ -21,7 +21,7 @@ const Achivements = () => {
 			</div>
 			<div className='badges-Container'>
 				{data.map( item => (
-					<BadgeItem src={item.src}>
+					<BadgeItem src={item.src} key={item.title}>
 						<p className="popUp-title">{item.title}</p>
 						<p className="popUp-desc">{item.description}</p>
 					</BadgeItem>
