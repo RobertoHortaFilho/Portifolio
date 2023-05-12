@@ -4,7 +4,7 @@ const Sobre = () => {
   return (
     <div>
       <p>
-        Olá seja muitissimo bem vindo! eu sou o Roberto.
+        Olá seja muitíssimo bem-vindo! Eu sou o Roberto.
       </p>
       <p>
         Minha história com a tecnologia vem de muito tempo atrás quando eu ganhei meu primeiro computador
