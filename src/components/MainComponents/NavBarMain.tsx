@@ -15,7 +15,7 @@ const NavBarMain = ({selected, setSelected} : IProps) => {
       <p
         className={`link-button ${selected == 'tecnologias' && 'selected-mainItem'}`}
         onClick={() => {setSelected('tecnologias')}}
-      >tecnologias</p>
+      >Tecnologias</p>
       <p
         className={`link-button ${selected == 'projetos' && 'selected-mainItem'}`}
         onClick={() => {setSelected('projetos')}}
