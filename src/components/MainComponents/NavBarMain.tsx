@@ -1,7 +1,30 @@
-const NavBarMain = () => {
+import './navBarMain.css'
+
+interface IProps {
+  setSelected: Function;
+  selected: string
+}
+
+const NavBarMain = ({selected, setSelected} : IProps) => {
+  console.log(selected)
   return (
-    <div>
-      Navbar
+    <div className="container-navBarMain">
+      <p
+        className={`link-button leftLink ${selected == 'sobre' && 'selected-mainItem'}`}
+        onClick={() => {setSelected('sobre')}}
+      >Sobre</p>
+      <p
+        className={`link-button ${selected == 'tecnologias' && 'selected-mainItem'}`}
+        onClick={() => {setSelected('tecnologias')}}
+      >tecnologias</p>
+      <p
+        className={`link-button ${selected == 'projetos' && 'selected-mainItem'}`}
+        onClick={() => {setSelected('projetos')}}
+      >Projetos</p>
+      <p
+        className={`link-button rightLink ${selected == 'hobbys' && 'selected-mainItem'}`}
+        onClick={() => {setSelected('hobbys')}}
+      >Hobbys</p>
     </div>
   )
 }
