@@ -1,0 +1,12 @@
+.paragrafo {
+  margin-bottom: 20px;
+  text-indent: 2em;
+  text-align: justify;
+  font-size: 1em;
+}
+
+@media (max-width: 450px) {
+  .paragrafo {
+    font-size: 11px;
+  }
+}
