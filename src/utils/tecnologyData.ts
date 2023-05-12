@@ -53,7 +53,8 @@ const data: ITecnologyItem[] = [
   },
   {
     name: 'Express',
-    src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg'
+    src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
+    bg: true
   },
   {
     name: 'Docker',
@@ -66,15 +67,36 @@ const data: ITecnologyItem[] = [
   },
   {
     name: 'Git',
-    src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'
+    src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
   },
   {
     name: 'Github',
-    src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
+    src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
+    bg: true
   },
   {
     name: 'Gitlab',
-    src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg'
+    src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg',
+  },
+  {
+    name: 'Figma',
+    src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg',
+  },
+  {
+    name: 'Photoshop',
+    src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-line.svg',
+  },
+  {
+    name: 'Illustrator',
+    src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-line.svg',
+  },
+  {
+    name: 'Slack',
+    src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg',
+  },
+  {
+    name: 'Visual Studio',
+    src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
   },
 ]
 

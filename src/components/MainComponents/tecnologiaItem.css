@@ -1,15 +1,27 @@
 .container-tec-item {
   width: 90px;
-  height: 130px;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 105px;
+  margin: 20px;
+  transform: scale(1);
+  transition: transform .3s ease-out;
+}
+
+.container-tec-item:hover {
+  transform: scale(1.3);
+}
+
+.container-tec-image {
+  width: 96%;
+  margin-left: 2%;
+  height: 86px;
 }
 
 .image-tec-item {
-  width: 90%;
+  position: relative;
+  top: -7px;
+  width: 100%;
   margin: 0px;
+  padding-top: 0px;
 }
 
 .text-tec-item {
@@ -20,5 +32,23 @@
 }
 
 .image-tec-item-bg {
-  background-color: rgba(255, 255, 255, .5);
+  background-color: rgba(255, 255, 255, .8);
+  border-radius: 50%;
+}
+
+@media (max-width: 380px) {
+  .container-tec-item {
+    margin: 10px;
+    width: 70px;
+  }
+
+  .container-tec-image {
+    width: 100%;
+    margin-left: 0px;
+    height: 70px;
+  }
+
+  .image-tec-item {
+    top: -15px
+  }
 }
