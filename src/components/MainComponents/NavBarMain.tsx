@@ -6,7 +6,6 @@ interface IProps {
 }
 
 const NavBarMain = ({selected, setSelected} : IProps) => {
-  console.log(selected)
   return (
     <div className="container-navBarMain">
       <p
