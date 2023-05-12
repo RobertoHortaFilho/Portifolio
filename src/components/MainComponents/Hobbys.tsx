@@ -1,4 +1,4 @@
-import './hobby.css'
+import './hobbys.css'
 
 const Hobbys = () => {
   return (
