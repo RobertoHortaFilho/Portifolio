@@ -1,3 +1,5 @@
+import './tecnologias.css'
+
 const Tecnologias = () => {
   return (
     <div>

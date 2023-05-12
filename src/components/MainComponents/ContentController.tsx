@@ -3,6 +3,7 @@ import Hobbys from "./Hobbys"
 import Projetos from "./Projetos"
 import Sobre from "./Sobre"
 import Tecnologias from "./Tecnologias"
+import './contentController.css'
 
 export type TItems = 'hobbys' | 'sobre' | 'tecnologias' | 'projetos'
 
@@ -25,7 +26,7 @@ const ContentController = ({selectItem}:IProps) => {
     projetos: <Projetos />,
   }
   return (
-    <div className="Container-main-content">
+    <div className="container-main-content">
       {content[selectItem]}
     </div>
   )
