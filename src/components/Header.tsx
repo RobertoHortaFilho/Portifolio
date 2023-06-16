@@ -1,7 +1,14 @@
+'use client'
 import './header.css'
 import Image from 'next/image'
+import { useContext } from 'react'
+import { ThemeContext } from '@/app/GlobalContext'
 
 const Header = () => {
+    const theme = useContext(ThemeContext)
+    const changeMode = () => {
+        theme.setTheme(() => theme.theme == 'light' ? 'dark' : 'light')
+    }
     return(
         <div className='header'>
             <Image
@@ -13,7 +20,7 @@ const Header = () => {
                 priority
             />
             <h1 className='name'>Roberto Alessandro Horta Filho</h1>
-            <div className='darkContainer'>
+            <div className='darkContainer' onClick={changeMode}>
                 <Image
                     src="/icons/dark.png"
                     alt="dark-mode"
