@@ -7,7 +7,6 @@ interface contextTheme {
   setTheme: Function;
 }
 
-// export const ThemeContext = createContext({})
 export const ThemeContext = createContext<contextTheme>({
   theme: '',
   setTheme: () => {}

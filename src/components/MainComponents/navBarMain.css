@@ -16,7 +16,6 @@
 }
 
 .link-button:hover {
-  /* background-color: rgb(32, 37, 44); */
   transform: translateY(1px) scale(1.05);
   z-index: 900;
   cursor: pointer;
@@ -27,12 +26,6 @@
     font-size: 11px;
   }
 }
-
-/* .selected-mainItem {
-  color: rgba(255,255,255,1);
-  background-color: rgb(32, 37, 44);
-} */
-
 
 
 .leftLink { border-top-left-radius: 1em; }

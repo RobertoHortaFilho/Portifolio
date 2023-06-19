@@ -5,10 +5,6 @@ import { useContext } from 'react'
 import { ThemeContext } from '@/app/GlobalContext'
 import generateClassName from '@/utils/generateClassName'
 
-// const classNameF = (classes: string, type:string) => {
-//     const theme = useContext(ThemeContext)
-//     return `${classes} ${type}-${theme.theme}`
-// }
 
 const Header = () => {
     const theme = useContext(ThemeContext)
