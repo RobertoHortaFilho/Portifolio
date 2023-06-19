@@ -1,12 +1,14 @@
+'use client'
 import './globalStyle.css'
 import Photo from './AsideComponents/Photo'
 import ContactItem from './Icon/ContactItem'
 import Achivements from './AsideComponents/Achievements'
+import generateClassName from '@/utils/generateClassName'
 
 
 const Aside = () => {
     return (
-        <div className='AsideStyle bordas espacamento'>
+        <div className={generateClassName('AsideStyle bordas espacamento', 'border')}>
             <Photo />
             <div className='contactSection'>
                 <ContactItem src='/icons/location.png' label='Belo Horizonte, MG' />

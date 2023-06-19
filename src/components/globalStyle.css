@@ -1,5 +1,5 @@
 .mainBody {
-    border: 1px solid rgba(255,255,255,.2);
+    /* border: 1px solid rgba(255,255,255,.2); */
     width: 68vw;
     /* height: auto; */
     margin-bottom: 5em;
@@ -7,7 +7,7 @@
 }
 
 .AsideStyle {
-    border: 1px solid rgba(255,255,255,.2);
+    /* border: 1px solid rgba(255,255,255,.2); */
     height: auto;
     width: 25vw;
     margin-bottom: 5em;

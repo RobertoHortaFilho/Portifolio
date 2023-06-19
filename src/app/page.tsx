@@ -1,4 +1,4 @@
-import styles from './page.module.css'
+import './page.css'
 import Header from '@/components/Header'
 import Main from '@/components/Main'
 import Aside from '@/components/Aside'
@@ -7,11 +7,11 @@ import './colors.css'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className={'main'}>
       <GlobalContext>
         <Header />
-        <div className={styles.separete}/>
-        <div className={styles.corpo}>
+        <div className={'separete'}/>
+        <div className={'corpo'}>
           <Aside />
           <Main />
         </div>

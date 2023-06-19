@@ -14,11 +14,11 @@ export const ThemeContext = createContext<contextTheme>({
 })
 
 export default function GlobalContext(props: PropsWithChildren) {
-  const [theme, setTheme] = useState('light')
+  const [theme, setTheme] = useState('dark')
 
 
   return (
-    <div>
+    <div className={`back-${theme}`}>
       <ThemeContext.Provider value={{theme, setTheme} as contextTheme}>
         {props.children}
       </ThemeContext.Provider>

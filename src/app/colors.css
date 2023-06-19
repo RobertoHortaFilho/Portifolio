@@ -1,9 +1,11 @@
 .back-gray-dark {
   background-color:  rgb(22, 27, 34);
+  color:  white;
 }
 
 .back-gray-light {
   background-color:  rgb(221, 221, 221);
+  color:  black;
 }
 
 .text-dark {
@@ -12,4 +14,60 @@
 
 .text-light {
   color:  black;
+}
+
+.back-dark {
+  background-color:  rgb(10, 15, 22);
+  color: white
+}
+
+.back-light {
+  background-color:  rgb(245, 245, 245);
+  color: black;
+}
+
+.link-b-dark {
+  background-color: rgb(22, 27, 34);
+  color: rgba(255,255,255,.7);
+}
+
+.link-b-light {
+  background-color:  rgb(221, 221, 221);
+  color: black;
+}
+
+.link-b-dark:hover {
+  background-color: rgb(32, 37, 44);
+  color: rgba(255,255,255,.7);
+}
+
+.link-b-light:hover {
+  background-color:  rgb(200, 202, 206);
+  color: black;
+}
+
+.border-dark {
+  border: 1px solid rgba(255,255,255,.2);
+}
+
+.border-light {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.selected-mainItem-dark {
+  color: rgba(255,255,255,1);
+  background-color: rgb(32, 37, 44);
+}
+
+.selected-mainItem-light {
+  color: black;
+  background-color:  rgb(206, 205, 212);
+}
+
+
+
+
+
+.back-red {
+  background-color: red;
 }

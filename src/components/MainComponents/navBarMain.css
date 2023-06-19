@@ -9,17 +9,15 @@
 .link-button {
   padding: .8em;
   width: 25%;
-  background-color: rgb(22, 27, 34);;
   text-align: center;
   transform: translateY(0px) scale(1);
-  color: rgba(255,255,255,.7);
   overflow: hidden;
   transition: transform .3s;
 }
 
 .link-button:hover {
-  background-color: rgb(32, 37, 44);
-  transform: translateY(3px) scale(1.1);
+  /* background-color: rgb(32, 37, 44); */
+  transform: translateY(1px) scale(1.05);
   z-index: 900;
   cursor: pointer;
 }
@@ -30,10 +28,10 @@
   }
 }
 
-.selected-mainItem {
+/* .selected-mainItem {
   color: rgba(255,255,255,1);
   background-color: rgb(32, 37, 44);
-}
+} */
 
 
 
