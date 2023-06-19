@@ -14,8 +14,32 @@
   cursor: pointer;
 }
 
+.dev-title {
+  text-align: center;
+  font-size: 250%;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.dev-desc {
+  margin-left: 25%;
+  font-size: 150%;
+  margin-bottom: 100px;
+}
+
 
 @media (max-width: 450px) {
+  .dev-title {
+    font-size: 130%;
+    text-align: left;
+    /* word-break: break-all; */
+  }
+
+  .dev-desc {
+    font-size: 100%;
+    margin-bottom: 30px;
+  }
+
   .paragrafo {
     font-size: 11px;
   }

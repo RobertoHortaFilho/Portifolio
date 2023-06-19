@@ -7,6 +7,12 @@ interface IProps {
 const Sobre = ({setSelect}: IProps) => {
   return (
     <div>
+      <div className='dev-container'>
+        <h5 className='dev-title'>
+          DESENVOLVEDOR FULLSTACK
+        </h5>
+        <p className='dev-desc'>React e Node</p>
+      </div>
       <p className='paragrafo'>
         Olá seja muitíssimo bem-vindo! Eu sou o Roberto.
       </p>
