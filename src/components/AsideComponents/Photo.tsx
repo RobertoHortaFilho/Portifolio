@@ -2,12 +2,13 @@
 import { useState } from 'react';
 import './photo.css'
 import Image from "next/image";
+import generateClassName from '@/utils/generateClassName';
 
 
 const Photo = () => {
   const [status, setStatus] = useState(false)
   return (
-    <div className="containerPhoto">
+    <div className={generateClassName('containerPhoto', 'photo-border')}>
       <Image
         src="/images/perfil-picture.png"
         alt="picture-profile"
@@ -21,7 +22,7 @@ const Photo = () => {
         onMouseLeave={ () => setStatus(false)}
       >
         {status && (
-          <div className='status-popUp'>
+          <div className={generateClassName('status-popUp', 'back-gray')}>
             <p className='status-popUp-text'>O importante é dar um passo da caminhada a cada dia!</p>
           </div>
         )}

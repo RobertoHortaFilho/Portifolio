@@ -2,7 +2,7 @@
 import Image from "next/image";
 import './badgeItem.css'
 import { ReactElement, useState } from 'react'
-
+import generateClassName from "@/utils/generateClassName";
 interface IProps {
   children: ReactElement[];
   src: string;
@@ -17,10 +17,8 @@ const BadgeItem = ({children, src} :IProps) => {
       onMouseLeave={() => setDescription(false)}
     >
       {description && (
-        <div className="popUp-badge">
+        <div className={generateClassName('popUp-badge', 'back-gray')}>
           {children}
-          {/* <p className="popUp-title">Titulo</p>
-          <p className="popUp-desc">descricao sobre o que esse badge sighunifica e como foi "conquistada"</p> */}
         </div>
       )}
       <Image
