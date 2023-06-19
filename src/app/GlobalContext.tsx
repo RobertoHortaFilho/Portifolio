@@ -13,7 +13,7 @@ export const ThemeContext = createContext<contextTheme>({
 })
 
 export default function GlobalContext(props: PropsWithChildren) {
-  const [theme, setTheme] = useState('dark')
+  const [theme, setTheme] = useState('light')
 
 
   return (

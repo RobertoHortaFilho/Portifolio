@@ -4,7 +4,7 @@
 }
 
 .back-gray-light {
-  background-color:  rgb(221, 221, 221);
+  background-color:  rgb(212, 221, 228);
   color:  black;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .back-light {
-  background-color:  rgb(245, 245, 245);
+  background-color:  rgb(247, 252, 255);
   color: black;
 }
 
@@ -32,13 +32,13 @@
 }
 
 .link-b-light {
-  background-color:  rgb(221, 221, 221);
+  background-color: rgb(212, 221, 228);
   color: black;
 }
 
 .link-b-dark:hover {
   background-color: rgb(32, 37, 44);
-  color: rgba(255,255,255,.7);
+  color: rgba(171, 178, 184, 0.7);
 }
 
 .link-b-light:hover {
@@ -61,7 +61,7 @@
 
 .selected-mainItem-light {
   color: black;
-  background-color:  rgb(206, 205, 212);
+  background-color:  rgb(188, 188, 199);
 }
 
 .photo-border-dark {
@@ -70,11 +70,4 @@
 
 .photo-border-light {
   border-color: black;
-}
-
-
-
-
-.back-red {
-  background-color: red;
 }
