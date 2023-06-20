@@ -3,7 +3,7 @@ import './globalStyle.css'
 import Photo from './AsideComponents/Photo'
 import ContactItem from './Icon/ContactItem'
 import Achivements from './AsideComponents/Achievements'
-import generateClassName from '@/utils/generateClassName'
+import generateClassName from '@/utils/GenerateClassName'
 
 
 const Aside = () => {

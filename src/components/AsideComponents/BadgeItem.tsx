@@ -2,7 +2,7 @@
 import Image from "next/image";
 import './badgeItem.css'
 import { ReactElement, useState } from 'react'
-import generateClassName from "@/utils/generateClassName";
+import generateClassName from "@/utils/GenerateClassName";
 interface IProps {
   children: ReactElement[];
   src: string;

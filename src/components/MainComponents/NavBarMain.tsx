@@ -1,5 +1,5 @@
 import './navBarMain.css'
-import generateClassName from '@/utils/generateClassName';
+import generateClassName from '@/utils/GenerateClassName';
 
 interface IProps {
   setSelected: Function;
