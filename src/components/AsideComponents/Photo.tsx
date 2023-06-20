@@ -1,12 +1,16 @@
 'use client'
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 import './photo.css'
 import Image from "next/image";
-import GenerateClassName from '../../utils/GenerateClassName';
+import { ThemeContext } from '@/app/GlobalContext';
 
 
 const Photo = () => {
   const [status, setStatus] = useState(false)
+  const GenerateClassName = (classes: string, type:string) => {
+    const theme = useContext(ThemeContext)
+    return `${classes} ${type}-${theme.theme}`
+  }
   return (
     <div className={GenerateClassName('containerPhoto', 'photo-border')}>
       <Image

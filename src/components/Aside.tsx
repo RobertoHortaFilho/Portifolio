@@ -3,10 +3,15 @@ import './globalStyle.css'
 import Photo from './AsideComponents/Photo'
 import ContactItem from './Icon/ContactItem'
 import Achivements from './AsideComponents/Achievements'
-import GenerateClassName from '../utils/GenerateClassName'
+import { ThemeContext } from '@/app/GlobalContext'
+import { useContext } from 'react'
 
 
 const Aside = () => {
+    const GenerateClassName = (classes: string, type:string) => {
+        const theme = useContext(ThemeContext)
+        return `${classes} ${type}-${theme.theme}`
+      }
     return (
         <div className={GenerateClassName('AsideStyle bordas espacamento', 'border')}>
             <Photo />

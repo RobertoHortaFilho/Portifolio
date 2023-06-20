@@ -1,8 +1,10 @@
 "use client"
 import Image from "next/image";
 import './badgeItem.css'
-import { ReactElement, useState } from 'react'
-import GenerateClassName from "../../utils/GenerateClassName";
+import { ReactElement, useContext, useState } from 'react'
+import { ThemeContext } from "@/app/GlobalContext";
+
+
 interface IProps {
   children: ReactElement[];
   src: string;
@@ -10,6 +12,10 @@ interface IProps {
 
 const BadgeItem = ({children, src} :IProps) => {
   const [description, setDescription] = useState(false)
+  const GenerateClassName = (classes: string, type:string) => {
+    const theme = useContext(ThemeContext)
+    return `${classes} ${type}-${theme.theme}`
+  }
   return (
     <div
       className="containerBadge"
