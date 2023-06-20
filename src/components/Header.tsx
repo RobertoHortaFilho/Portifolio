@@ -3,7 +3,7 @@ import './header.css'
 import Image from 'next/image'
 import { useContext } from 'react'
 import { ThemeContext } from '@/app/GlobalContext'
-import GenerateClassName from '@/utils/GenerateClassName'
+import GenerateClassName from '../utils/GenerateClassName'
 
 
 const Header = () => {

@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import './photo.css'
 import Image from "next/image";
-import GenerateClassName from '@/utils/GenerateClassName';
+import GenerateClassName from '../../utils/GenerateClassName';
 
 
 const Photo = () => {
