@@ -3,7 +3,7 @@ import './header.css'
 import Image from 'next/image'
 import { useContext } from 'react'
 import { ThemeContext } from '@/app/GlobalContext'
-import generateClassName from '@/utils/GenerateClassName'
+import GenerateClassName from '@/utils/GenerateClassName'
 
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
         theme.setTheme(() => theme.theme == 'light' ? 'dark' : 'light')
     }
     return(
-        <div className={generateClassName('header', 'back-gray')}>
+        <div className={GenerateClassName('header', 'back-gray')}>
             <Image
                 src="/images/Icon-anime.png"
                 alt="picture-profile"
@@ -21,7 +21,7 @@ const Header = () => {
                 height={40}
                 priority
             />
-            <h1 className={generateClassName('name', 'text')}>Roberto Alessandro Horta Filho</h1>
+            <h1 className={GenerateClassName('name', 'text')}>Roberto Alessandro Horta Filho</h1>
             <div className='darkContainer' onClick={changeMode}>
                 <Image
                     src="/icons/dark.png"

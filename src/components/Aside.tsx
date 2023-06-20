@@ -3,12 +3,12 @@ import './globalStyle.css'
 import Photo from './AsideComponents/Photo'
 import ContactItem from './Icon/ContactItem'
 import Achivements from './AsideComponents/Achievements'
-import generateClassName from '@/utils/GenerateClassName'
+import GenerateClassName from '@/utils/GenerateClassName'
 
 
 const Aside = () => {
     return (
-        <div className={generateClassName('AsideStyle bordas espacamento', 'border')}>
+        <div className={GenerateClassName('AsideStyle bordas espacamento', 'border')}>
             <Photo />
             <div className='contactSection'>
                 <ContactItem src='/icons/location.png' label='Belo Horizonte, MG' />

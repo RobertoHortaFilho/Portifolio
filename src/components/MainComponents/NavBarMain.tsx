@@ -1,5 +1,5 @@
 import './navBarMain.css'
-import generateClassName from '@/utils/GenerateClassName';
+import GenerateClassName from '@/utils/GenerateClassName';
 
 interface IProps {
   setSelected: Function;
@@ -10,21 +10,21 @@ const NavBarMain = ({selected, setSelected} : IProps) => {
   return (
     <div className="container-navBarMain">
       <p
-        className={`${generateClassName('link-button leftLink ', 'link-b')} ${generateClassName('', 'back-gray')} ${selected == 'sobre' && generateClassName('', 'selected-mainItem')}`}
+        className={`${GenerateClassName('link-button leftLink ', 'link-b')} ${GenerateClassName('', 'back-gray')} ${selected == 'sobre' && GenerateClassName('', 'selected-mainItem')}`}
         onClick={() => {setSelected('sobre')}}
       >Sobre</p>
       <p
         className={
-          `${generateClassName('link-button ', 'link-b')} ${generateClassName('', 'back-gray')} ${selected == 'tecnologias' && generateClassName('', 'selected-mainItem')}`
+          `${GenerateClassName('link-button ', 'link-b')} ${GenerateClassName('', 'back-gray')} ${selected == 'tecnologias' && GenerateClassName('', 'selected-mainItem')}`
         }
         onClick={() => {setSelected('tecnologias')}}
       >Tecnologias</p>
       <p
-        className={`${generateClassName('link-button ', 'link-b')} ${generateClassName('', 'back-gray')} ${selected == 'projetos' && generateClassName('', 'selected-mainItem')}`}
+        className={`${GenerateClassName('link-button ', 'link-b')} ${GenerateClassName('', 'back-gray')} ${selected == 'projetos' && GenerateClassName('', 'selected-mainItem')}`}
         onClick={() => {setSelected('projetos')}}
       >Projetos</p>
       <p
-        className={`${generateClassName('link-button rightLink ', 'link-b')} ${generateClassName('', 'back-gray')} ${selected == 'hobbys' && generateClassName('', 'selected-mainItem')}`}
+        className={`${GenerateClassName('link-button rightLink ', 'link-b')} ${GenerateClassName('', 'back-gray')} ${selected == 'hobbys' && GenerateClassName('', 'selected-mainItem')}`}
         onClick={() => {setSelected('hobbys')}}
       >Hobbys</p>
     </div>
